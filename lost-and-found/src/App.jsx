@@ -1,5 +1,6 @@
 import React from 'react'
 import LostItemList from './Components/LostItemList'
+import Signup from './Components/signup'
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       
        <h1>Lost Items</h1>
       <LostItemList/>
+      <Signup/>
     
 
 
