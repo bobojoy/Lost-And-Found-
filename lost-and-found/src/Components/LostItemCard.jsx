@@ -1,6 +1,6 @@
 
 import React from "react";
-import './App.css'
+import '../App.css'
 
 
 const LostItemCard = ({ item, onClick }) => {
@@ -11,9 +11,9 @@ const LostItemCard = ({ item, onClick }) => {
     <div className="card" onClick={onClick} style={{ cursor: "pointer" }}>
       <img src={item.imageUrl} alt={item.name} />
       <h3>{item.name}</h3>
-      <p>Country: {item.Place}</p>
+      <p>Place Found: {item.Place}</p>
           
-          <p>{item.Date}</p>
+          <p>Date :{item.Date}</p>
       
       
     </div>
