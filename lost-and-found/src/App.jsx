@@ -5,7 +5,7 @@ import Login from './Componets/Login'
 const App = () => {
   return (
     <div>
-     <Login/>
+     
      
       </div>
   )
