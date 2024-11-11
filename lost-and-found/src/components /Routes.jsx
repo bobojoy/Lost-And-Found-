@@ -7,6 +7,7 @@ import Rewards from './Components/Rewards';
 import SignIn from './Components/SignIn';
 // import Signup from './Components/Signup';
 //import Login from './Components/Login';
+
 const routes = [
 	{
 		path: '/',
