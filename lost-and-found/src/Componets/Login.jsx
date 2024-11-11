@@ -55,6 +55,8 @@ function Login() {
      
         <button type="submit" id="login-login-button">Log in</button>
         <button type="button" onClick={() => navigate('/signup')} id="signup-button">Sign up</button>
+
+		
         <button type="button" onClick={() => navigate('/')} id="back-button">Back</button>
 
        
