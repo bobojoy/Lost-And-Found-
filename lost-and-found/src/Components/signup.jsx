@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
+// import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 import "../App.css"; // Assuming you're using global styles from App.css
 
 const Signup = () => {
@@ -7,7 +7,7 @@ const Signup = () => {
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
   const [error, setError] = useState(null);
-  const navigate = useNavigate(); // Declare useNavigate hook for navigation
+  // const navigate = useNavigate(); // Declare useNavigate hook for navigation
 
   const handleSubmit = (e) => {
     e.preventDefault();
