@@ -30,6 +30,7 @@ const Home = () => {
               />
               <div className="container">
                 <h2 id="what">What We Do?</h2>
+                
                 <p id="para1">
                   At Moringa Lost and Found, we make it easier to reconnect with
                   what’s been lost. Whether you’ve misplaced something important
